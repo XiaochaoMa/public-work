@@ -1,6 +1,6 @@
 # Redfish 验证器
 
-使用说明英文原地址：
+使用说明及代码下载地址：
 https://github.com/DMTF/Redfish-Service-Validator
 
 
