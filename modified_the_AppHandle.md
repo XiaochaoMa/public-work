@@ -94,3 +94,7 @@ Jan 01 00:02:02 fp5280g2 systemd[1]: bmcweb.service: Main process exited, code=d
 Jan 01 00:02:02 fp5280g2 systemd[1]: bmcweb.service: Failed with result 'core-dump'.
 
 ```
+
+#### About the counter:
+I added an'int' variable to the'res' constructor. When creating a response, it counts as +1; when calling app.handle, it also counts as +1. Finally check the counter in res.end.
+The above log shows: before the counter increases, the first res.end has started to execute.
