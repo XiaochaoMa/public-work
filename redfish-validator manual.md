@@ -179,3 +179,7 @@ pyinstaller -F -w -i redfish.ico -n RedfishServiceValidator.exe RedfishServiceVa
 6在Github中创建新版本并附加zip文件
 
 --
+
+
+
+--Xiaochao Ma
